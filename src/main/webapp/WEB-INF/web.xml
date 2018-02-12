@@ -15,6 +15,23 @@
         <tracking-mode>COOKIE</tracking-mode>
     </session-config>
 
+    <context-param>
+        <param-name>dbUrl</param-name>
+        <param-value>jdbc:mysql://localhost:3306/test_db</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbUser</param-name>
+        <param-value>java_user</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbPassword</param-name>
+        <param-value>password</param-value>
+    </context-param>
+    <context-param>
+        <param-name>dbInitCat</param-name>
+        <param-value>test_db</param-value>
+    </context-param>
+    
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
